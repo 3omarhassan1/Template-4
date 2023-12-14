@@ -956,7 +956,6 @@ h1::after {
 .projects-page .project img:not(:first-child) {
   margin-left: -15px;
 }
-
 .projects-page .prog-bar {
   height: 8px;
   width: 260px;
@@ -969,6 +968,9 @@ h1::after {
 @media (max-width: 767px) {
   .projects-page {
     grid-template-columns: minmax(200px, 1fr);
+  }
+  .projects-page .prog-bar {
+    width: 200px;
   }
 }
 
