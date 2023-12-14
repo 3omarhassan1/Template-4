@@ -1040,6 +1040,12 @@ h1::after {
   opacity: 0.2;
 }
 
+@media (max-width: 767px) {
+  .friends-page {
+    grid-template-columns: minmax(200px, 1fr);
+  }
+}
+
 /* End Friends Page */
 /* start Files Page */
 .files-page {
